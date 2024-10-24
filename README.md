@@ -44,7 +44,7 @@ You can also find an example notebook in the repository.
 ### Additional Fields
 You can include any signed and unsigned header described in [ETSI TS 119 182-1](https://www.etsi.org/deliver/etsi_ts/119100_119199/11918201/01.01.01_60/ts_11918201v010101p.pdf), but here are simple examples.
 
-```json
+```python
 # Additional headers to include in the signed document
 additional_signed_headers = {
     "sigPl": {
