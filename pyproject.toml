@@ -28,7 +28,6 @@ classifiers = [
 cryptography = ">=41.0.1"
 requests = ">=2.31.0"
 
-[tool.setuptools]
 packages = ["pyjades"]
 include-package-data = true
 
