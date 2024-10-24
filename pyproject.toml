@@ -1,35 +1,36 @@
 [build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling<=1.18.0"]
+build-backend = "hatchling.build"
 
 [project]
 name = "pyjades"
 version = "0.1.0"
+
+license = { text = "Apache-2.0" }
+
+requires-python = ">=3.8"
+
 description = "A simple Python library for signing and validating JAdES documents"
-authors = [
-    { name = "Mykhailo Shtopko", email = "mykhayloshtopko@gmail.com" }
-]
 readme = "README.md"
-license = { file = "LICENSE" }
+
 keywords = ["JAdES", "digital-signature", "cryptography", "certificates"]
-homepage = "https://your.project.homepage/"
-requires-python = ">=3.7"
+
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
 ]
 
-[project.urls]
-"Bug Tracker" = "https://your.project.bugtracker"
-"Source Code" = "https://your.project.source"
+dependencies = [
+    "cryptography>=41.0.1",
+    "requests>=2.31.0"
+]
 
-[project.dependencies]
-cryptography = ">=41.0.1"
-requests = ">=2.31.0"
-
+[options]
 packages = ["pyjades"]
-include-package-data = true
+package_dir = {"" = "src"}  # Указание, что код проекта находится в папке "src"
+zip_safe = true
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[tool.black]
+line-length = 80
+target-version = ['py37']
