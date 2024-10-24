@@ -1,0 +1,75 @@
+{
+    "signature_valid": true,
+    "timestamp_valid": true,
+    "signature_time_valid": true,
+    "certificate_chain_valid": true,
+    "certificate_chain_metadata": [
+        {
+            "certificate_subject": "1.2.840.113549.1.9.1=emailAddress@gmail.com,CN=Mykhailo Shtopko,OU=BioMike,O=BioMike,L=Vilnius,ST=Vilnius,C=LT",
+            "certificate_serial_number": 137575878936231662239221593647538883001154149868,
+            "certificate_valid_from": "2024-10-24T11:35:25+00:00",
+            "certificate_valid_to": "2026-03-08T11:35:25+00:00",
+            "verified": null,
+            "issuer_certificate": {
+                "issuer_certificate_subject": "1.2.840.113549.1.9.1=intermediateca@example.com,CN=Intermediate CA,OU=IntermediateCA,O=MyIntermediateCA,L=Vilnius,ST=Vilnius,C=LT",
+                "issuer_certificate_serial_number": 111807309507307545697777530659803408933527860388,
+                "issuer_certificate_valid_from": "2024-10-24T11:35:24+00:00",
+                "issuer_certificate_valid_to": "2026-09-24T11:35:24+00:00",
+                "verified": true
+            }
+        },
+        {
+            "certificate_subject": "1.2.840.113549.1.9.1=intermediateca@example.com,CN=Intermediate CA,OU=IntermediateCA,O=MyIntermediateCA,L=Vilnius,ST=Vilnius,C=LT",
+            "certificate_serial_number": 111807309507307545697777530659803408933527860388,
+            "certificate_valid_from": "2024-10-24T11:35:24+00:00",
+            "certificate_valid_to": "2026-09-24T11:35:24+00:00",
+            "verified": null
+        }
+    ],
+    "timestamp_metadata": {
+        "tsa_cert_url": "https://freetsa.org/files/tsa.crt",
+        "ca_cert_url": "https://freetsa.org/files/cacert.pem",
+        "timestamp_hex": "3082054630030201003082053d06092a864886f70d010702a082052e3082052a020103310f300d0609608648016503040203050030820184060b2a864886f70d0109100104a08201730482016f3082016b02010106042a0304013031300d060960864801650304020105000420738e36856b034a7bff8e66542421e4e091d64822ae1d74436b3ea667cbc341dd020403cabf16180f32303234313032343131333731375a0101ffa0820111a482010d308201093111300f060355040a13084672656520545341310c300a060355040b130354534131763074060355040d136d54686973206365727469666963617465206469676974616c6c79207369676e7320646f63756d656e747320616e642074696d65207374616d70207265717565737473206d616465207573696e672074686520667265657473612e6f7267206f6e6c696e65207365727669636573311830160603550403130f7777772e667265657473612e6f72673122302006092a864886f70d0109011613627573696c657a617340676d61696c2e636f6d3112301006035504071309577565727a62757267310b3009060355040613024445310f300d0603550408130642617965726e3182038a308203860201013081a33081953111300f060355040a130846726565205453413110300e060355040b1307526f6f74204341311830160603550403130f7777772e667265657473612e6f72673122302006092a864886f70d0109011613627573696c657a617340676d61696c2e636f6d3112301006035504071309577565727a62757267310f300d0603550408130642617965726e310b3009060355040613024445020900c1e986160da8e982300d06096086480165030402030500a081b8301a06092a864886f70d010903310d060b2a864886f70d0109100104301c06092a864886f70d010905310f170d3234313032343131333731375a302b060b2a864886f70d010910020c311c301a301830160414916da3d860ecca82e34bc59d1793e7e968875f14304f06092a864886f70d0109043142044077329f69a60d7018d04fd5629881fe1a876533b61e288903712a8082383f3b9e29e6761beb2121a6ac1f53ba6639c24f46e91bcf30588a3e540ca3f19321bd68300d06092a864886f70d01010105000482020081caf51a043d476ad089d04578ccf5aab412d48bae4d31cac7c6b9176d6debf4408d3c27d05f69d50ae8dbf529d72b76cad5314bb27b29e0c1b2b6dee8b0e9e6ea1084809f385a2ce83bc76f2a824fb229fbfd540a91fe4a2a7118ef889cdf24ffc890f7166a76a5002fbc7e6c8d09623f801f5a1b2cfc3f8917b19dac64a6f4ca62272fdb5a8d3fffdcc1012c79bd4f4f2e5abe73af85f5c27c62cdbb6e60927a3afc9cbcbc1dc0bcbb2aa24c0c6150f6ca4ab9e99811415c0be534fbc63393708bf27e054c2a7af9c082125d79a74613445cac4d77b7909ba07091e8f5210705a2bbef18bb6d752052172bf8ff60280dc9001bc3230689032df94225a6430934cca2eeb5c0949b146b70f110f9deab219fe1e2323be301d6d54d3cc9aa359c5326a522b98f68b28fed35c23d958194e4fc02faeb7a3e2b12c0ae8b9acd673b75b251668627d06bf9af492e1d483b62c9381db361ccf020d68d8562386cddf836e57c14cc2c80360b6e7d6cf90d3d33f2044250ec9cf1f98bef5f921fd4e06ec27626b487279e949050977af10d4fda694dffc0790e6abcaca43f535ba173ec349e2bcb0295544399658b2710532be6b2de287207ab76e64f5e31bf551c0424fb8b6d0459f7efa08b19a2d689ee48616449b477c75cd616a21e81be5852e686d3d5bfa6aba1ec26d83c5a748f3077f9405efc635fec42fe08411090eac24dff",
+        "data_hash": "2e22d7b8dc35d7d34bb0e1a3a1e920a7b18ea8578abdd11253e9fd9cdb7cf677",
+        "openssl_output": "Verification: OK\n",
+        "openssl_error": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '.cache_dir/tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@gmail.com/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n",
+        "status": "Granted.",
+        "hash_algorithm": "sha256",
+        "message_data": "0000 - 73 8e 36 85 6b 03 4a 7b-ff 8e 66 54 24 21 e4 e0   s.6.k.J{..fT$!..",
+        "serial_number": "0x03CABF16",
+        "timestamp": "Oct 24 11:37:17 2024 GMT",
+        "nonce": "unspecified"
+    },
+    "kid_certificate_subject": "1.2.840.113549.1.9.1=emailAddress@gmail.com,CN=Mykhailo Shtopko,OU=BioMike,O=BioMike,L=Vilnius,ST=Vilnius,C=LT",
+    "kid_certificate_not_before": "2024-10-24T11:35:25+00:00",
+    "kid_certificate_not_after": "2026-03-08T11:35:25+00:00",
+    "protected_headers": {
+        "alg": "RS256",
+        "cty": "json",
+        "typ": "jose+json",
+        "x5c": [
+            "MIIDyjCCArICFBgZHaM/VCx7+c83KAaVw+jWph3sMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJMVDEQMA4GA1UECAwHVmlsbml1czEQMA4GA1UEBwwHVmlsbml1czEZMBcGA1UECgwQTXlJbnRlcm1lZGlhdGVDQTEXMBUGA1UECwwOSW50ZXJtZWRpYXRlQ0ExGDAWBgNVBAMMD0ludGVybWVkaWF0ZSBDQTEpMCcGCSqGSIb3DQEJARYaaW50ZXJtZWRpYXRlY2FAZXhhbXBsZS5jb20wHhcNMjQxMDI0MTEzNTI1WhcNMjYwMzA4MTEzNTI1WjCBlzELMAkGA1UEBhMCTFQxEDAOBgNVBAgMB1ZpbG5pdXMxEDAOBgNVBAcMB1ZpbG5pdXMxEDAOBgNVBAoMB0Jpb01pa2UxEDAOBgNVBAsMB0Jpb01pa2UxGTAXBgNVBAMMEE15a2hhaWxvIFNodG9wa28xJTAjBgkqhkiG9w0BCQEWFmVtYWlsQWRkcmVzc0BnbWFpbC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCem/2EHyObesFWYjrMol52q1wln8myjCQ5xry/40YG33k1L8NctuNDTxWXNyE+eFYtnf0+IEkGgKHpV7WI9lovqrCypWb5lLYxDjgS2K2D48Jpjpi9ZGLLaq3bodeCdcz/3orlAwcf7W3emWErMVM5Q5rAL0ralNSNPX5VSbMrf5faVG5BmrZ8XUzaPRc5VElL4K2nvn3nkCeqkEcS1+sKfRoCCOkDjp4fsL+8pM4nU7Vits0IWHI5IbHsAW2o3hWLa+9eiUfwEV60K+kTTtYw3w5k7yb/MY5Z0UgxBLf1SxD0YRUOjw+l5viT16NnVjEpGWtbWuy4c1dSZS3F3Pn1AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAGr8zcj5JrmLZtevBx3jwdBaWwsjqBMSsOkGKP5bsgqhfxqW4mB61AnOP+f1cMYyVpD1cTknvoLZwv7ecNf6lWpK1JHhQUmnBMMWN/mPLSogFW6iuppHV62xI7rE5isK11EBqHTw0jVJtv30zax752ytMMn4SNRFYZabXO6tRyWfY87AIlSwLGonsC/5Jo5gxxccBD52lkIdaRI9u0lChm2efYloL7AKG7sBPl8cHU/ycZE6DN+oPY5YiDKf4GTpTFSvbUhGkphSUfx8CvV87qI1d3sXcJnIxeNEykIbQW99pRr8DPyVmSL1Lzd0cICKbtp5aocoZDOtBBcgGl4T/gQ=",
+            "MIIDwDCCAqgCFBOVnPfEJYdfHl/S/khEtTt6+bSkMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJMVDEQMA4GA1UECAwHVmlsbml1czEQMA4GA1UEBwwHVmlsbml1czERMA8GA1UECgwITXlSb290Q0ExDzANBgNVBAsMBlJvb3RDQTETMBEGA1UEAwwKTXkgUm9vdCBDQTEhMB8GCSqGSIb3DQEJARYScm9vdGNhQGV4YW1wbGUuY29tMB4XDTI0MTAyNDExMzUyNFoXDTI2MDkyNDExMzUyNFowgaoxCzAJBgNVBAYTAkxUMRAwDgYDVQQIDAdWaWxuaXVzMRAwDgYDVQQHDAdWaWxuaXVzMRkwFwYDVQQKDBBNeUludGVybWVkaWF0ZUNBMRcwFQYDVQQLDA5JbnRlcm1lZGlhdGVDQTEYMBYGA1UEAwwPSW50ZXJtZWRpYXRlIENBMSkwJwYJKoZIhvcNAQkBFhppbnRlcm1lZGlhdGVjYUBleGFtcGxlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK9SqbxVqqugL8dXrf2JBZlXZyqxZIEBJp3sTZJ+rip+rq9sl4hbVha1NNcbdOzHi09ObqdGT2AcEn6JYzmbRAMLz8cP034Mt+UMGVJ+v31HBFgIvNoKIh6XQDgxwzOFB992zdOeuzzptA4mfzR75GzljU1iDhBNhPRj8jxHLq9qls9v+RpNB1ckyCgHMOhpXLLLeGaLJFVC+1v3QgAMAKV6/oCh4eI18rABv0EnOSo29cLH0hspefkLxQWVlGWa85VaEz6+Hi8OUUVFZy1CzI8ShlvsjVLTkgaXkuE/9uvyotqXX/HQbilZIi4DSD/pdSTX69ORKNoWERL9LdRLVw8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAL3XelH2oDH6oFU2l4hNYre7vyv5RcXftMWVrfIPKkveGntlfIcT2S7ce9BdOvrtyt0d6Tp/9csRsW6FWvEUUJifhwKa8CNi37WXB3sciheoyA5VZ0t5bxtVcA7pf9xL/lAFfRnT/yGC08LglCRO3F/PMm7XmCL0p81ekj2paN4sl/7LhEVH1kuZS0foeyj0CojjoV1y/0q/s3Wg5KHp6CmWDPsxV1xcOvP+4CEefy2/TY4QpKO0AkJ68bw1GqbGxU9BC2RrL+lnzoboNdGMQNFJ3JYT+J4WZzc1P6UieTP2q18r/Sg5Lnak37vaGc1x56Fjh8IzhCWBVa9k1eOA1ww=="
+        ],
+        "kid": "aWc5Nh6qvaYEdYIoL7Xy-eV3mNcJ1vCkid9eIRxGcWI",
+        "sigX5ts": [
+            {
+                "digAlg": "2.16.840.1.101.3.4.2.1",
+                "digVal": "AacJRyyVUr428IrJSVRfQZFqv7GKaV8qRbOB-lK58Rs"
+            },
+            {
+                "digAlg": "2.16.840.1.101.3.4.2.1",
+                "digVal": "n6bAnxbPiDWNnIlGC9qY5bq0kUieJQ0F6rR9YuajvBA"
+            }
+        ],
+        "sigT": "2024-10-24T11:37:17Z",
+        "sigPl": {
+            "addressCountry": "LT",
+            "addressLocality": "Vilnius",
+            "addressRegion": "Vilnius",
+            "postOfficeBoxNumber": "24",
+            "postalCode": "LT-03225",
+            "streetAddress": "Naugarduko g. 24"
+        }
+    }
+}
