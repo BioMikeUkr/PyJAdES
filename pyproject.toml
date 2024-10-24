@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyjades"
+version = "0.1.0"
+description = "A simple Python library for signing and validating JAdES documents"
+authors = [
+    { name = "Mykhailo Shtopko", email = "mykhayloshtopko@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["JAdES", "digital-signature", "cryptography", "certificates"]
+homepage = "https://your.project.homepage/"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Bug Tracker" = "https://your.project.bugtracker"
+"Source Code" = "https://your.project.source"
+
+[project.dependencies]
+cryptography = ">=41.0.1"
+requests = ">=2.31.0"
+
+[tool.setuptools]
+packages = ["pyjades"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.scripts]
