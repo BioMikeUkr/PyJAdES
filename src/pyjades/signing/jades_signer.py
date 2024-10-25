@@ -67,7 +67,7 @@ class JAdESSigner:
         headers = {
             "alg": "RS256",
             "cty": "json",
-            "typ": "jose+json",
+            #"typ": "jose+json",
             "b64": True,
             "x5c": [
                 base64.b64encode(self.cert.public_bytes(encoding=serialization.Encoding.DER)).decode(),
