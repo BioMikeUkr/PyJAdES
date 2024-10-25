@@ -78,7 +78,8 @@ class JAdESSigner:
                 {"digAlg": "2.16.840.1.101.3.4.2.1", "digVal": self.get_cert_digest(self.cert)},
                 {"digAlg": "2.16.840.1.101.3.4.2.1", "digVal": self.get_cert_digest(self.intermediate_cert)}
             ],
-            "sigT": self.get_current_utc_time()
+            "sigT": self.get_current_utc_time(),
+            "crit": ["b64", "sigT"]
         }
 
         # Merge provided additional signed headers
