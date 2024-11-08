@@ -84,8 +84,7 @@ class JAdESSigner:
 
         # Merge provided additional signed headers
         headers.update(additional_signed_headers)
-
-        return self.base64url_encode(json.dumps(headers).encode())
+        return self.base64url_encode(json.dumps(headers, sort_keys=True, separators=(',', ':')).encode())
 
     def sign_payload(self, payload, additional_signed_headers=None):
         """
